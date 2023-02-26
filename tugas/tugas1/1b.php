@@ -16,7 +16,7 @@ $npm = "40"
     <p>
         <?php 
         
-            echo "Aku adalah angka 40 </br>";
+            echo "Aku adalah angka $npm </br>";
             echo "Jika aku dikali 5, maka aku menjadi ";
             echo "<b>". $npm * 5 . "</b>" . "</br>";
             echo "Jika aku dibagi 2, maka aku menjadi ";
