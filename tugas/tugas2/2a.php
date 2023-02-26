@@ -1,14 +1,17 @@
 <?php
 
-$depan = "rama";
-$belakang = "refin";
-$angka_awal = 1;
+$depan = "Rama";
+$belakang = "Refin";
 
-while ($angka_awal <= 100) {
-    echo "$angka_awal <br>";
-    $angka_awal = $angka_awal + 1;
-}
+for ($nilai_awal = 1; $nilai_awal <= 100; $nilai_awal++) {
 
-for ($angka_awal = 1; $angka_awal <= 1; $angka_awal++) {
-    echo "$depan <br>";
+    if ($nilai_awal % 3 == 0 and $nilai_awal % 5 == 0) {
+        echo "$depan <br>";
+    } elseif ($nilai_awal % 5 == 0) {
+        echo "$belakang <br>";
+    } elseif ($nilai_awal % 3 == 0) {
+        echo "$depan <br>";
+    } else {
+        echo "$nilai_awal <br>";
+    }
 }
