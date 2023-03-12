@@ -2,7 +2,9 @@
 
 $komputer = ["Motherboard", "Processor", "Hard disk", "PC Cooler", "VGA Card", "SSD"];
 
+
 ?>
+
 
 <!DOCTYPE html>
 <html lang="en">
@@ -21,6 +23,20 @@ $komputer = ["Motherboard", "Processor", "Hard disk", "PC Cooler", "VGA Card", "
             <li><?= $komputer[$i]; ?></li>
         <?php } ?>
     </ol>
+
+
+
+    <h2> Macam macam perangkat keras komputer </h2>
+    <ol>
+        <?php
+        array_unshift($komputer, 'Modem', 'Card Reader');
+        sort($komputer)
+        ?>
+        <?php for ($i = 0; $i < count($komputer); $i++) { ?>
+            <li><?= $komputer[$i]; ?></li>
+        <?php } ?>
+    </ol>
+
 </body>
 
 </html>
