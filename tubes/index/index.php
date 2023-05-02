@@ -11,7 +11,6 @@
 </head>
 
 <body>
-
     <!-- //navbar// -->
 
     <nav class="navbar navbar-expand-lg bg-light">
@@ -35,12 +34,15 @@
                         <a class="nav-link active" href="#">Contac us</a>
                     </li>
                 </ul>
-                <button type="button" class="btn btn-outline-dark">Log in</button>
+                <div class="button1">
+                    <button type="button" class="btn btn-outline-dark">Log in</button>
 
-                <button type="button" class="btn btn-outline-dark btn btn-success">Sign Up</button>
+                    <button type="button" class="btn btn-outline-dark btn btn-success">Sign Up</button>
+                </div>
             </div>
         </div>
     </nav>
+
 
 
     <!-- landing page -->
@@ -56,7 +58,6 @@
         <button type="button" class="btn btn-success btn-lg">Shop</button>
         <button type="button" class="btn btn-info btn-lg">News</button>
     </div>
-
 
 
 

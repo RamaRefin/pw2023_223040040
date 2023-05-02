@@ -34,9 +34,17 @@
                     <li class="nav-item">
                         <a class="nav-link active" href="#">Contac us</a>
                     </li>
+                </ul>
+                <div class="button">
+                    <button type="button" class="btn btn-outline-dark">Log in</button>
+
+                    <button type="button" class="btn btn-outline-dark btn btn-success">Sign Up</button>
+                </div>
+
             </div>
         </div>
     </nav>
+
 
     <!-- halaman signup -->
 
@@ -69,6 +77,7 @@
             </div>
         </div>
     </section>
+
 
 
 

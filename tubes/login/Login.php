@@ -35,9 +35,12 @@
                         <a class="nav-link active" href="#">Contac us</a>
                     </li>
                 </ul>
-                <button type="button" class="btn btn-outline-dark">Log in</button>
+                <div class="button1">
+                    <button type="button" class="btn btn-outline-dark">Log in</button>
 
-                <button type="button" class="btn btn-outline-dark btn btn-success">Sign Up</button>
+                    <button type="button" class="btn btn-outline-dark btn btn-success">Sign Up</button>
+                </div>
+
             </div>
         </div>
     </nav>
