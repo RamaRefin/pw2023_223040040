@@ -7,10 +7,11 @@
     <title>Bootstrap demo</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
-    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="admin.css">
 </head>
 
 <body>
+
     <!-- //navbar// -->
 
     <nav class="navbar navbar-expand-lg bg-light">
@@ -39,28 +40,34 @@
 
                     <button type="button" class="btn btn-outline-dark btn btn-success">Sign Up</button>
                 </div>
+
             </div>
-        </div>`
+        </div>
     </nav>
 
+    <!-- halaman login -->
 
-
-    <!-- landing page -->
-
-    <div class="header">
-        <h1> Selamat datang di <span>GadgetVerse</span></h1>
-    </div>
-
-    <div class="content-header">
-        <p> Dimana tempat kamu bisa membeli produk,
-            dan membaca berita teknologi. </p>
-        <br>
-        <button type="button" class="btn btn-success btn-lg">Shop</button>
-        <button type="button" class="btn btn-info btn-lg">News</button>
-    </div>
-
-
-
+    <section>
+        <div class="form-box">
+            <div class="form-value">
+                <form action="">
+                    <h2>Admin Login</h2>
+                    <div class="inputbox">
+                        <input type="Text" required>
+                        <label for="">Username <label>
+                    </div>
+                    <div class="inputbox">
+                        <input type="Password" required>
+                        <label for="">Password <label>
+                    </div>
+                    <div class="forget">
+                        <label for=""><input type="checkbox">Remember Me <a href="#">Forget Password?</a></label>
+                    </div>
+                    <button>Log In</button>
+                </form>
+            </div>
+        </div>
+    </section>
 
 
 
