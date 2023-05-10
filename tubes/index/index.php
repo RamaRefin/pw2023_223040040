@@ -22,22 +22,22 @@
             <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                     <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        <a class="nav-link active" aria-current="page" href="../index/index.php">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link active" href="#">Product</a>
+                        <a class="nav-link active" href="../item/item.php">Product</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link active" href="#">News</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link active" href="#">Contac us</a>
+                        <a class="nav-link active" href="../contact/contact.php">Contac us</a>
                     </li>
                 </ul>
                 <div class="button1">
-                    <button type="button" class="btn btn-outline-dark">Log in</button>
+                    <a class="btn btn-outline-secondary" href="../login/Login.php" role="button">Login</a>
 
-                    <button type="button" class="btn btn-outline-dark btn btn-success">Sign Up</button>
+                    <a class="btn btn-success" href="../signup/signup.php" role="button">SignUp</a>
                 </div>
             </div>
         </div>`
@@ -55,8 +55,11 @@
         <p> Dimana tempat kamu bisa membeli produk,
             dan membaca berita teknologi. </p>
         <br>
-        <button type="button" class="btn btn-success btn-lg">Shop</button>
-        <button type="button" class="btn btn-info btn-lg">News</button>
+        <div class="button2">
+            <a class="btn btn-success" href="../item/item.php" role="button">Shop</a>
+            <a class="btn btn-primary" href="#" role="button">News</a>
+        </div>
+
     </div>
 
 

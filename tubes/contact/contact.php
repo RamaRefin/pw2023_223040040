@@ -1,19 +1,19 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 
 <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Bootstrap demo</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
-    <link rel="stylesheet" href="signup.css">
+    <link rel="stylesheet" href="contact.css">
 </head>
 
 <body>
 
-    <!-- //navbar// -->
-
+    <!-- NAVBAR -->
     <nav class="navbar navbar-expand-lg bg-light">
         <div class="container-fluid">
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
@@ -35,54 +35,91 @@
                         <a class="nav-link active" href="../contact/contact.php">Contac us</a>
                     </li>
                 </ul>
-                <div class="button">
+                <div class="button1">
                     <a class="btn btn-outline-secondary" href="../login/Login.php" role="button">Login</a>
 
                     <a class="btn btn-success" href="../signup/signup.php" role="button">SignUp</a>
                 </div>
-
             </div>
-        </div>
+        </div>`
     </nav>
 
 
-    <!-- halaman signup -->
 
-    <section>
-        <div class="form-box">
-            <div class="form-value">
-                <form action="">
-                    <h2>Sign Up</h2>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- CONTACT -->
+    <section class="contact">
+        <div class="content">
+            <h2>Contact us</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur, cupiditate.</p>
+        </div>
+        <div class="container">
+            <div class="contactinfo">
+                <div class="box">
+                    <div class="icon"><i class="fa-solid fa-location-dot"></i></div>
+                    <div class="text">
+                        <h3>Address</h3>
+                        <p>Bandung,<br>Gegerkalong,<br>4012</p>
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="icon"><i class="fa-solid fa-phone"></i></div>
+                    <div class="text">
+                        <h3>Phone</h3>
+                        <p>123-456-789</p>
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="icon"><i class="fa-solid fa-envelope"></i></div>
+                    <div class="text">
+                        <h3>Email</h3>
+                        <p>Gverse@gmail.com</p>
+                    </div>
+                </div>
+            </div>
+            <div class="contactform">
+                <form>
+                    <h2> Send Message </h2>
                     <div class="inputbox">
-                        <input type="Username" required>
-                        <label for="">Username <label>
+                        <input type="text" name="" required="required">
+                        <span> Full name </span>
                     </div>
                     <div class="inputbox">
-                        <input type="email" required>
-                        <label for="">Email <label>
+                        <input type="text" name="" required="required">
+                        <span> Email </span>
                     </div>
                     <div class="inputbox">
-                        <input type="Password" required>
-                        <label for="">Password <label>
+                        <textarea required="required"></textarea>
+                        <span> Your Message... </span>
                     </div>
                     <div class="inputbox">
-                        <input type="Password" required>
-                        <label for="">Confirm Password <label>
-                    </div>
-                    <button>Sign Up</button>
-                    <div class="register">
-                        <p>Have a Account? <a href="#">Login</a></p>
+                        <input type="submit" name="" value="send">
                     </div>
                 </form>
             </div>
         </div>
     </section>
 
-
-
-
-
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
 </body>
 
 </html>
